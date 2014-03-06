@@ -1,0 +1,5 @@
+A Simple Rails 3.2.11 app to Demonstrate Polymorphic Association
+
+Articles Events Photos with comments as commentable
+
+

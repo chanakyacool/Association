@@ -3,7 +3,7 @@
     <div class="well">
   <label><%=link_to event.name, event %></label>
   <b><u><%= event.place %></u></b><br> 
-  <p style="font-family:times"><%= event.content %></p>
+  <p style="font-family:times;font-size:15px;"><%= event.content %></p>
 
   <%= link_to 'Edit', edit_event_path(event) %>
   <%= link_to 'Destroy', event, method: :delete, data: { confirm: 'Are you sure?' } %>

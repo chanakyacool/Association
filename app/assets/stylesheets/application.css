@@ -16,5 +16,21 @@ ul a:hover{
 	color: maroon;
 }
 .well{
-	width: 75%;
+	width: 95%;
+}
+
+#fontphoto{
+	font-weight: bold;
+	font-family: Times;
+	font-size: 20px;
+	text-align: center;
+}
+.container{
+	font-family: Helvetica;
+	font-size: 14px;
+}
+#links{
+	color:#1370ec;
+	background-color:transparent;
+	text-decoration: none;
 }

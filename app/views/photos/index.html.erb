@@ -3,7 +3,7 @@
 <% @photos.each do |photo| %>
     <br>
     <label><%= photo.name %></label> <br>
-    <%= image_tag photo.image_url(:large), :class => "img-polaroid"%>
+    <%= image_tag photo.image_url(:thumb), :class => "img-polaroid"%>
     <%= link_to 'Show', photo %>
     <%= link_to 'Edit', edit_photo_path(photo) %>
     <%= link_to 'Destroy', photo, method: :delete, data: { confirm: 'Are you sure?' } %><br>

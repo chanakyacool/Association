@@ -3,10 +3,10 @@
   <div class="well">
     <strong><%=link_to  article.title, article %></strong><br><br>
    
-    <%= article.content %> <br><hr>
+    <span style=	"color:#09346e"><%= article.content %></span> <br><hr>
  
-    <%= link_to 'Edit', edit_article_path(article) %>
-    <%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %> <br>
+    <%= link_to 'Edit', edit_article_path(article) %> |
+    <%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' }  %> <br>
   </div>
 <% end %>
 

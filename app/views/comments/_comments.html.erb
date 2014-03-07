@@ -1,6 +1,8 @@
-
+<div class="well">
  	<% @comments.each do |comment| %>
- 	<div class="well">
- 		<%= simple_format comment.content %>
- </div>
+ 	
+ 		<legend><%= simple_format comment.content %></legend>
+
+ 
  	<% end %>
+ 	</div>
